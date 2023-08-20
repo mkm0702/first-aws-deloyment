@@ -11,6 +11,10 @@ app.get('/mkm', (req, res) => {
   res.send('Hello, mkm');
 });
 
+app.get('/piro', (req, res) =>{
+  res.send('piro');
+});
+
 // Define the port to listen on
 const port = 3000;
 
