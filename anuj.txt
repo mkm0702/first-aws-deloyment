@@ -1,1 +1,5 @@
 anuj
+
+ssh -t -i "mkm-test-server-key.pem" ubuntu@ec2-16-171-169-7.eu-north-1.compute.amazonaws.com  "sudo bash ~/deploy.sh"
+source deploy.sh
+ssh -t -i keyfile ubuntu@ec2-16-171-169-7.eu-north-1.compute.amazonaws.com "sudo bash ~/deploy.sh"
